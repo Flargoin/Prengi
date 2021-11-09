@@ -1,6 +1,6 @@
 $('.main__top-burger').on('click', function(e){
   e.preventDefault();
-  $('.main__top-burger').toggleClass('burger__btn-elem-active');
+  $('.burger__btn').toggleClass('burger__btn-active');
   $('.main__mobile-nav').toggleClass('main__mobile-nav_active');
 });
 
